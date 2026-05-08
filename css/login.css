@@ -1,0 +1,208 @@
+:root{
+    --maincolor:#AB7442;
+}
+body{
+    background-image: url(../assets/img/login5.jpg);
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.user-input input{
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 5px 4px 5px;
+    height: 55px;
+    border: 0px;
+    border-radius: 5px;
+    outline: none;
+}
+.user-input input::placeholder{
+    font-size: 20px;
+}
+#consult-input input{
+    border: 0px;
+    border-radius: 5px;
+    padding: 10px;
+    outline: none;
+    height: 40px;
+    box-shadow: 5px 4px 5px;
+}
+#consult-input input:focus{
+    border: 3px solid var(--maincolor);
+}
+.user-input{
+    margin-left: 50px;
+}
+#user-loginPage{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+#user-loginPage button{
+    width: 47%;
+    height: 50px;
+    border-radius: 8px;
+    background-color: var(--maincolor);
+    font-size: 25px;
+    margin-left: 60px;
+    margin-top: 15px;
+    border: 0px;
+    box-shadow: 5px 4px 5px;
+    color: white;
+}
+#user-loginPage a{
+    padding-left: 60px;
+    color: var(--maincolor);
+}
+.regist-link{
+    font-size: 13px;
+    padding-top: 10px;
+}
+/* -----------end user login------------------------ */
+
+/*---------------- start user registeration -------------- */
+.hero{
+    margin: 40px 0px 30px 60px;
+}
+.regist {
+  display: flex;
+  justify-content: center; /* horizontal centering */
+  align-items: center;     /* vertical centering */
+  height: 80px; /* or any height you need */
+}
+.regist button{
+    width: 80%;
+    height: 50px;
+    background-color: var(--maincolor);
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+.regist button:hover{
+    background-color:#a57e5a;
+    font-weight: bold;
+    color: white;
+}
+label{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+label a{
+    color: var(--maincolor);
+}
+.input-group input{
+    box-shadow: 5px 4px 5px;
+    height: 55px;
+    border: 0px;
+    width: 90%;
+    border-radius: 5px;
+    outline: none;
+}
+.log-link{
+    font-size: 16px;
+    padding-bottom: 10px;
+    color: var(--maincolor);
+}
+.error-message {
+  display: block;              
+  margin-top: 5px;             
+  margin-left: 2px;             
+  color: red;
+  font-size: 14px;
+  text-align: left;           
+}
+/* ---------------- end user registeration --------------------- */
+
+/* ---------------------- start expert login ----------------------- */
+.hero2{
+    margin-top: 25px;
+    margin-left: 30px;
+}
+.expert-img img{
+    width: 37%;
+    height: 80vh;
+    float: right;
+    box-shadow: 20px 10px 10px 10px;
+    border-radius: 10px;
+}
+#consult-input{
+    text-align: center;
+    font-size: 20px;
+}
+.log-expertlink{
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+.log-expertlink a{
+    color: var(--maincolor);
+    padding-left: 5px; 
+}
+.regist2{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.regist2 button{
+    /* width: 140px;
+    height: 50px; */
+    background-color: var(--maincolor);
+    font-size: 25px;
+    font-weight: bold;
+}
+.regist2 label{
+    padding-left: 100px;
+}
+.cv-input{
+    margin-left: 0px;
+    text-align: center;
+    font-size: 25px;
+}
+#cv input{
+    border-radius: 5px;
+    box-shadow:5px 4px 5px ;
+    height: 30px;
+}
+.back-home{
+    margin-left: 15px;
+    margin-top: 5px;
+}
+.back-home a{
+    color: var(--maincolor) !important;
+    font-size: 25px;
+    padding-left: 10px;
+    text-decoration: none;
+}
+#consult-input textarea{
+    border: 0px;
+    border-radius: 5px;
+    padding: 10px;
+    outline: none;
+    height: 80px;
+    box-shadow: 5px 4px 5px;
+}
+#expert_discription, #availability{
+    width: 68%;
+}
+/*----- Some Styling for the user-friendly notifications-----*/
+.alert {
+    padding: 15px;
+    margin: 10px auto;
+    width: 40%;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.alert.success {
+    background-color: #d4edda;
+    color: #155724;
+}
+.alert.error {
+    background-color: #f0e6bbfb;
+    color: #721c24;
+}
+.input-group {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2px;
+}
+

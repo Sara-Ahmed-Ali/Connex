@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  :root{
+    --maincolor:#AB7442;
+}
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+  }
+  
+  header {
+    background-color:var(--maincolor);
+    color: white;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+  }
+  
+  .tool-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .tool-card {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+    width: 100%;
+  }
+  .tool-card img{
+     max-width: 200px; /* Set a fixed max-width */
+     height: 50%;
+     width: 100%; /* Keep the aspect ratio */
+     object-fit: contain; /* Ensure image clarity   */
+     border-radius: 10px;
+    margin-left: 40px; 
+  }
+  
+  
+  .tool-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .tool-card h2 {
+    color: #111827;
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .tool-card a {
+    display: inline-block;
+    margin-top: 1rem;
+    text-decoration: none;
+    color: white;
+    background-color: var(--maincolor);
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    transition: background-color 0.2s ease;
+  }
+  
+  .tool-card a:hover {
+    background-color: black;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: black;
+    color: white;
+    margin-top: 2rem;
+  }
+  

@@ -1,0 +1,92 @@
+:root{
+    --maincolor:#AB7442;
+}
+/* -----------------start subscribion page---------------------- */
+.img-sub img{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.container-header{
+    margin-left: 40px;
+    margin-top: 10px;
+    color: var(--maincolor);
+}
+.container-header h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+.pay-h2{
+    color:var(--maincolor);
+    margin-bottom:20px;
+}
+.sub-input input{
+    width: 90%;
+    height: 70px;
+    border-radius: 10px;
+    border: 1px solid var(--maincolor);
+    margin-top: 10px;
+    box-shadow: 0px 0px 7px 0px var(--maincolor);
+}
+.input-group{
+    margin-left: 30px;
+}
+.sub-button{
+    margin-top: 20px;
+    width: 90%;
+    height: 55px;
+    border:0px;
+    border-radius:8px;
+    color:white;
+    background-color: var(--maincolor);
+    font-size: 22px;
+    margin-left: 30px;
+}
+.sub-button:hover{
+   background-color:#aa8058;
+   transition:all 1s;
+}
+.input-group {
+  position: relative;
+}
+input.error {
+  border-color: red;
+}
+
+.input-group .error-message {
+  position: absolute;
+  bottom: calc(100% - 4px); 
+  right: 5%; 
+  margin-right: 18px;
+  background-color: #fff8f8;
+  color: red;
+  font-size: 12px;
+  padding: 4px 8px;
+  border: 1px solid red;
+  border-radius: 4px;
+  z-index: 10;
+  white-space: nowrap;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+.input-group .error-message::after {
+  content: "";
+  position: absolute; 
+  top: 100%;
+  right: 10px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: red transparent transparent transparent;
+}
+/* --------------------------- end subscribtion page ------------------ */
+.back-home{
+    float: right;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+.back-home a{
+    color: var(--maincolor) !important;
+    font-size: 25px;
+    padding-left: 10px;
+    text-decoration: none;
+}
